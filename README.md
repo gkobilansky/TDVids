@@ -1,3 +1,8 @@
+I'm building the internet's first grappling video social news site with Telescope and Meteor. Below is the original Telescope Readme.md left intact.
+
+----
+
+
 [![Build Status](https://travis-ci.org/TelescopeJS/Telescope.svg)](https://travis-ci.org/TelescopeJS/Telescope)
 [![Code Climate](https://codeclimate.com/github/TelescopeJS/Telescope/badges/gpa.svg)](https://codeclimate.com/github/TelescopeJS/Telescope)
 
