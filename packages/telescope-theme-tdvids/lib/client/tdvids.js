@@ -8,16 +8,26 @@ heroModules.push({
 
 // Add Upload Post Field
 
-var thumbnailProperty = {
-  propertyName: 'thumbnailUrl2',
+var videoUpload = {
+  propertyName: 'videoUpload',
   propertySchema: {
     type: String,
     optional: true,
-    label: 'thumbnail2'
-
+    label: 'Your Video',
+    autoform: {
+        type: "file",
+        omit: false
+      }
   }
 }
 
-addToPostSchema.push(thumbnailProperty);
+addToPostSchema.push(videoUpload);
 
-addToPostSchema.unshift(thumbnailProperty);
+// Move Upload Field to Top of Post Array
+
+
+
+// Add Slingshot Upload
+
+
+

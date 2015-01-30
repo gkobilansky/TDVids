@@ -1,4 +1,4 @@
-Package.describe({
+    Package.describe({
   summary: "Telescope tdvids theme",
   version: '0.1.0',
   name: "telescope-theme-tdvids"

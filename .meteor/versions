@@ -135,6 +135,7 @@ telescope-theme-base@0.0.0
 telescope-theme-hubble@0.0.0
 telescope-theme-tdvids@0.1.0
 telescope-update-prompt@0.1.0
+telescope-video-upload@0.0.0
 templating@1.0.10
 tracker@1.0.4
 tsega:bootstrap3-datetimepicker@3.1.3_3
