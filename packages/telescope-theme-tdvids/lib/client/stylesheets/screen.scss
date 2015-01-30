@@ -1,0 +1,61 @@
+.header {
+	padding: 45px 20px 50px;
+	background-color: #692C3F;
+}
+
+
+body {
+  background: #BECBE8;
+}
+
+.btn { 
+background: #000057;
+
+}
+
+.btn.btn-primary, .btn.submit {
+background: #000057;
+}
+
+.post-upvote .upvote-link.voted i.icon-check {
+
+border: 1px solid #94FFC0;
+color: #94FFC0;
+opacity: 1;
+}
+
+.post-upvote .upvote-link i {
+	color: #692C3F;
+}
+
+
+
+.tagline{
+  text-align: center;
+  margin: 30px 0 20px 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  color: white;
+  span{
+    position: relative;
+    display: inline-block;
+    background: #BECBE8;
+    margin: 0 auto;
+    z-index: 100;
+    padding: 0 15px;
+  }
+  &:after{
+    position: absolute;
+    content: " ";
+    display: block;
+    top: 50%;
+    left: 0px;
+    height: 1px;
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: 10;
+  }
+}
