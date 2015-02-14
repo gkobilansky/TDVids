@@ -25,7 +25,7 @@ addToPostSchema.push(videoUpload);
 
 // Move Upload Field to Top of Post Array
 
-
+addToPostSchema.unshift(videoUpload);
 
 // Add Slingshot Upload
 
