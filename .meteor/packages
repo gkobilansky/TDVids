@@ -87,4 +87,10 @@ telescope-subscribe-to-posts
 telescope-tagline-banner
 
 # Custom Packages
+<<<<<<< HEAD
 telescope-theme-tdvids
+=======
+edgee:slingshot
+telescope-theme-tdvids
+telescope-video-upload
+>>>>>>> 2b34b09d7106357e2c4ed12a02c15baf58522789

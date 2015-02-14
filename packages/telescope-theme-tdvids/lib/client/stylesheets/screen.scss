@@ -1,31 +1,51 @@
 .header {
 	padding: 45px 20px 50px;
-	background-color: #692C3F;
+	background-color: #000000;
 }
 
 
 body {
-  background: #BECBE8;
+  background: #263248;
 }
 
 .btn { 
-background: #000057;
+background: #BCCEF2;
 
 }
 
+#at-btn {
+ background: #BCCEF2;
+}
+
+#at-facebook { 
+color: white !important;
+}
+
+#at-twitter {
+  color: white !important;
+}
+
 .btn.btn-primary, .btn.submit {
-background: #000057;
+background: #BCCEF2;
+}
+
+.post {
+  background: #FFFFFF;
+}
+
+.posts-list .post-rank span {
+  color: #FFFFFF;
 }
 
 .post-upvote .upvote-link.voted i.icon-check {
 
-border: 1px solid #94FFC0;
-color: #94FFC0;
+border: 1px solid #263248;
+color: #263248;
 opacity: 1;
 }
 
 .post-upvote .upvote-link i {
-	color: #692C3F;
+	color: #BCCEF2;
 }
 
 
@@ -38,11 +58,11 @@ opacity: 1;
   text-align: center;
   font-size: 19px;
   font-weight: normal;
-  color: white;
+  color: #FFFFFF;
   span{
     position: relative;
     display: inline-block;
-    background: #BECBE8;
+    background: #263248;
     margin: 0 auto;
     z-index: 100;
     padding: 0 15px;

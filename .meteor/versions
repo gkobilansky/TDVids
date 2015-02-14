@@ -29,6 +29,7 @@ coffeescript@1.0.5
 ddp@1.0.14
 deps@1.0.6
 djedi:sanitize-html@1.3.0
+edgee:slingshot@0.4.1
 ejson@1.0.5
 email@1.0.5
 facebook@1.1.3
@@ -137,8 +138,14 @@ telescope-theme-base@0.0.0
 telescope-theme-hubble@0.0.0
 telescope-theme-tdvids@0.1.0
 telescope-update-prompt@0.1.0
+<<<<<<< HEAD
 templating@1.0.11
 tracker@1.0.5
+=======
+telescope-video-upload@0.0.0
+templating@1.0.10
+tracker@1.0.4
+>>>>>>> 2b34b09d7106357e2c4ed12a02c15baf58522789
 tsega:bootstrap3-datetimepicker@3.1.3_3
 twitter@1.1.3
 ui@1.0.5

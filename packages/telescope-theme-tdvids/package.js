@@ -1,4 +1,4 @@
-Package.describe({
+    Package.describe({
   summary: "Telescope tdvids theme",
   version: '0.1.0',
   name: "telescope-theme-tdvids"
@@ -47,7 +47,9 @@ api.use([
     'lib/client/stylesheets/screen.scss',
     'lib/client/templates/tagline.html',
     'lib/client/templates/helpers.js',
-    ], ['client']);
+    'content/images/tdvids-logo.png',
+  ], ['client']);
+
 
 // -------------------------------- 3. Variables to export --------------------------------
 
