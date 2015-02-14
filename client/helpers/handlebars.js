@@ -15,7 +15,6 @@ UI.registerHelper('eachWithRank', function(items, options) {
 });
 
 UI.registerHelper('getSetting', function(setting, defaultArgument){
-  defaultArgument = defaultArgument || '';
   setting = getSetting(setting, defaultArgument);
   return setting;
 });
@@ -80,5 +79,12 @@ UI.registerHelper('userName', function(userOrUserId) {
   var user = (typeof userOrUserId === 'string') ? Meteor.users.findOne(userOrUserId) :  userOrUserId;
   if (!!user) {
     return getUserName(user);
+  }
+});
+
+UI.registerHelper('displayName', function(userOrUserId) {
+  var user = (typeof userOrUserId === 'string') ? Meteor.users.findOne(userOrUserId) :  userOrUserId;
+  if (!!user) {
+    return getDisplayName(user);
   }
 });
