@@ -26,7 +26,7 @@ postSchemaObject = {
       type: "bootstrap-datetimepicker"
     }
   },
-  url: {
+    url: {
     type: String,
     optional: true,
     autoform: {
@@ -34,7 +34,7 @@ postSchemaObject = {
       type: "bootstrap-url"
     }
   },
-  title: {
+   title: {
     type: String,
     optional: false,
     autoform: {
@@ -194,6 +194,7 @@ postSchemaObject = {
 
 // add any extra properties to postSchemaObject (provided by packages for example)
 _.each(addToPostSchema, function(item){
+  console.log(postSchemaObject);
   postSchemaObject[item.propertyName] = item.propertySchema;
 });
 
